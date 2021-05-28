@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Weather App - 404 ERROR </title>
+    {{>head}}
+</head>
+<body>
+    {{>navbar}}
+    <!--  MAIN HEADER END  -->
+
+
+    <!-- MAIN SECTION START  -->
+    <div class="containter-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- LEFT SIDE SECTION   -->
+                    <div class="col-md-6 col-12 main_header_left">
+                       <p>Welcome to 404 Error </p>
+                       <h1>{{errorMsg}}</h1>
+                       <a href="/"><button class="">Home</button></a>
+                    </div>
+                    <!-- RIGHT SIDE SECTION   -->
+                    <div class="col-md-6 col-12 main_header_right">
+                       <figure>
+                           <img src="images/404.jpg" class="img-fluid">
+                       </figure> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN SECTION END  -->
+
+    <!-- FOOTER SECTION START  -->
+    {{>footer}}
+    <!-- FOOTER SECTION END  -->
+</body>
+</html>
